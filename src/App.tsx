@@ -1,5 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
+
+// @ts-ignore
+import { Button } from 'gk-rc';
+
 import './App.css';
 
 function App() {
@@ -18,6 +22,9 @@ function App() {
         >
           Learn React
         </a>
+        <Button variant="contained" color="primary">
+          Primary
+        </Button>
       </header>
     </div>
   );
